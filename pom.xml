@@ -153,9 +153,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            
-			
+            </plugin>		
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
 				<artifactId>spotbugs-maven-plugin</artifactId>
@@ -168,8 +166,7 @@
 						<version>4.7.0</version>
 					</dependency>
 				</dependencies>
-			</plugin>
-            
+			</plugin>    
         </plugins>
     </build>
     
