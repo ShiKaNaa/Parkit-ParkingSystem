@@ -15,6 +15,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.Mockito.when;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -56,11 +57,13 @@ public class ParkingDataBaseIT {
         parkingService.processIncomingVehicle();
         
         //TODO: check that a ticket is actually saved in DB and Parking table is updated with availability
+        // go on TEST DB and not PROD => actually ticketDAO.DBconfig is change for TestValue in @BeforeAll
         Ticket ticket = ticketDAO.getTicket("ABCDEF");
         assertNotNull(ticket);
         
-        boolean parkingSpotIsAvailable = parkingSpotDAO.updateParking(ticket.getParkingSpot());
-        assertTrue(parkingSpotIsAvailable);
+        boolean isParkingSpotIsAvailable = parkingSpotDAO.updateParking(ticket.getParkingSpot());
+        assertTrue(isParkingSpotIsAvailable);
+        
     }
 
     @Test
@@ -68,7 +71,11 @@ public class ParkingDataBaseIT {
         testParkingACar();
         ParkingService parkingService = new ParkingService(inputReaderUtil, parkingSpotDAO, ticketDAO);
         parkingService.processExitingVehicle();
+        
         //TODO: check that the fare generated and out time are populated correctly in the database
+        
     }
+    
+    //TODO: do the same test but for the bikes
 
 }
