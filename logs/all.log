@@ -1445,3 +1445,112 @@ java.lang.IllegalArgumentException: Out time provided is incorrect:Tue Dec 13 10
 2022-12-13 10:57:23,049 INFO DataBaseTestConfig [main] Create DB connection
 2022-12-13 10:57:23,061 INFO DataBaseTestConfig [main] Closing Prepared Statement
 2022-12-13 10:57:23,062 INFO DataBaseTestConfig [main] Closing DB connection
+2022-12-13 13:29:30,482 INFO App [main] Initializing Parking System
+2022-12-13 13:29:30,486 INFO InteractiveShell [main] App initialized!!!
+2022-12-13 13:29:41,160 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:41,613 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:29:41,614 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:29:41,616 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:29:48,320 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:48,351 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:29:48,352 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:29:48,352 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:48,373 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:29:48,374 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:29:48,374 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:29:48,375 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:48,397 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:29:55,568 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:55,584 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:29:55,584 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:29:55,584 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:29:55,585 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:55,603 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:29:55,603 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:29:55,625 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:29:55,626 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:36:59,373 INFO App [main] Initializing Parking System
+2022-12-13 13:36:59,377 INFO InteractiveShell [main] App initialized!!!
+2022-12-13 13:37:07,732 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:08,052 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:37:08,052 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:37:08,054 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:08,054 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:08,081 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:08,081 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:08,101 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:37:08,102 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:15,757 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:15,774 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:37:15,775 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:37:15,775 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:15,776 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:15,795 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:15,795 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:15,810 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:37:15,810 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:22,750 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:22,766 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:37:22,766 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:37:22,766 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:22,767 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:22,789 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:22,790 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:37:22,806 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:37:22,806 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:37:58,939 INFO App [main] Initializing Parking System
+2022-12-13 13:37:58,942 INFO InteractiveShell [main] App initialized!!!
+2022-12-13 13:38:07,247 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:07,554 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:38:07,555 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:07,556 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:07,557 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-12-13 13:38:38,287 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:38,309 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:38:38,309 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:38,309 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:38,310 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-12-13 13:38:42,792 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:42,813 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:38:42,813 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:42,813 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:42,814 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:42,835 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:42,835 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:42,850 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:42,851 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:45,792 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:45,815 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:38:45,815 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:45,816 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:45,816 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:45,833 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:45,833 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:45,848 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:45,848 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:48,848 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:48,862 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:38:48,863 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:48,864 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:48,864 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-12-13 13:38:51,632 INFO DataBaseConfig [main] Create DB connection
+2022-12-13 13:38:51,648 INFO DataBaseConfig [main] Closing Result Set
+2022-12-13 13:38:51,648 INFO DataBaseConfig [main] Closing Prepared Statement
+2022-12-13 13:38:51,648 INFO DataBaseConfig [main] Closing DB connection
+2022-12-13 13:38:51,648 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]

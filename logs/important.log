@@ -242,3 +242,23 @@ java.lang.IllegalArgumentException: Out time provided is incorrect:Tue Dec 13 10
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2022-12-13 13:38:07,557 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-12-13 13:38:38,310 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-12-13 13:38:48,864 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
+2022-12-13 13:38:51,648 ERROR ParkingService [main] Unable to process exiting vehicle
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.model.Ticket.setOutTime(java.util.Date)" because "ticket" is null
+	at com.parkit.parkingsystem.service.ParkingService.processExitingVehicle(ParkingService.java:115) [classes/:?]
+	at com.parkit.parkingsystem.service.InteractiveShell.loadInterface(InteractiveShell.java:32) [classes/:?]
+	at com.parkit.parkingsystem.App.main(App.java:11) [classes/:?]
