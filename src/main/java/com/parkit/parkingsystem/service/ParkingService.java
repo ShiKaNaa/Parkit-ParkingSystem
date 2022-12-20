@@ -46,13 +46,12 @@ public class ParkingService {
                 ticket.setOutTime(null);
                 
                 // check if user is recurrent 
-                Ticket oldTicket = ticketDAO.getTicket(vehicleRegNumber);
+                Ticket oldTicket = ticketDAO.getOldTicket(vehicleRegNumber);
+                System.out.println("value of oldTicket is : " + oldTicket);
                 if (oldTicket != null) {
                 	ticket.setRecurentUser(true);
                 	System.out.println("Welcome back! As a recurring user of our parking lot, you'll benefit from a 5% discount.");
-                } else {
-                	ticket.setRecurentUser(false);
-                }
+                } 
                 
                 ticketDAO.saveTicket(ticket);
                 System.out.println("Generated Ticket and saved in DB");
@@ -87,6 +86,8 @@ public class ParkingService {
         }
         return parkingSpot;
     }
+    
+    
 
     private ParkingType getVehichleType(){
         System.out.println("Please select vehicle type from menu");
