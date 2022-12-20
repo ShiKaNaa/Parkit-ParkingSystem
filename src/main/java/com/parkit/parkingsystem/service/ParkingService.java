@@ -47,7 +47,6 @@ public class ParkingService {
                 
                 // check if user is recurrent 
                 Ticket oldTicket = ticketDAO.getOldTicket(vehicleRegNumber);
-                System.out.println("value of oldTicket is : " + oldTicket);
                 if (oldTicket != null) {
                 	ticket.setRecurentUser(true);
                 	System.out.println("Welcome back! As a recurring user of our parking lot, you'll benefit from a 5% discount.");
